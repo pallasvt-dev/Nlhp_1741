@@ -6,7 +6,7 @@ except ImportError:
     print("Error: requests library is not installed. Install it with: pip install requests")
     sys.exit(1)
 
-from PySide6.QtWidgets import QApplication, QMainWindow, QMessageBox
+from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox
 from ui.caesar import Ui_MainWindow
 
 class MyApp(QMainWindow):
